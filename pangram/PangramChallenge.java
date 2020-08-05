@@ -120,7 +120,6 @@ public class PangramChallenge {
 
     public static void main(String[] args) {
         new PangramChallenge();
-
     }
 
     class LetterAccrue {
