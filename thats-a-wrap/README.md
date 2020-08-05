@@ -1,4 +1,11 @@
 # code-challenge - word wrap
+perfect lines: 228
+
+Seems the check didn't match with the expected answer?
+
+Interested to know where i went wrong but no lines > 32 
+and the first part of hiphenated words are split if < 32
+
 
 I was to see my old friend, 
 <br/>Simon Radevin, of whom I had 
