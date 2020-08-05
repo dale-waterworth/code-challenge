@@ -1,5 +1,6 @@
 # code-challenge - word wrap
 
+
 perfect lines: 117
 
 Seems the check didn't match with the expected answer?
@@ -346,4 +347,5 @@ Interested to know where i went wrong but no lines > 32 and the first part of hi
 <br/>poor friend's five children, and
 <br/>pictured him to myself, snoring 
 <br/>by the side of his wife.
-perfect lines: 117
+
+<br/>Perfect lines: 117
