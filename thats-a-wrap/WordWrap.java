@@ -71,7 +71,7 @@ public class WordWrap {
     }
 
     private String newLine() {
-        return System.lineSeparator();
+        return System.lineSeparator() + "<br/>";
     }
 
     public static void main(String[] args) throws IOException, URISyntaxException {
