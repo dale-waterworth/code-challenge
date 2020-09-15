@@ -1,0 +1,18 @@
+<div class="row">
+  <h3>Score: {{gameBoard.score}} | Lives: {{gameBoard.lives}}</h3>
+</div>
+|
+<div class="row">
+  <h3>Difficulty</h3>
+  <button (click)="difficulty('easy')">Easy</button>
+  <button (click)="difficulty('medium')">Medium</button>
+  <button (click)="difficulty('god')">God Mode</button>
+</div>
+|
+<div class="row">
+  <h3>Mines: {{this.config.mines}}
+    | Walls: {{this.config.walls}}</h3>
+</div>
+
+<app-grid [gameBoard]="gameBoard"></app-grid>
+

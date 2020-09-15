@@ -1,0 +1,12 @@
+<div *ngIf="gameBoard ">
+  <div *ngFor="let row of gameBoard.matrix; let i = index" class="row">
+    <div *ngFor="let cell of row" class="cell {{cell.type}}" [ngClass]="{'selected': cell.selected}" >
+      <div>
+        {{cell.label}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

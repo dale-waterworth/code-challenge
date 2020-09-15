@@ -1,0 +1,48 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: #b7b7b7;
+  width: 100%;
+}
+
+.cell {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cell > div {
+  border: 1pt solid black;
+  height: 100%;
+  width: 100%;
+}
+
+.start {
+  background-color: #d22fff;
+
+}
+
+.end {
+  background-color: #2f52ff;
+}
+
+.wall {
+  background-color: #d65c5c;
+}
+.hitMine {
+  background-color: #000000;
+}
+
+/*.mine {
+  background-color: #000000;
+}*/
+
+.selected {
+
+  background-image:  url("src/assets/and.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+}
