@@ -48,7 +48,6 @@ export class AppComponent {
   };
 
   gameBoard: Gameboard;
-  wall: Gameboard;
 
   constructor(keyboard: KeyboardService) {
 
@@ -79,7 +78,6 @@ export class AppComponent {
       this.checkForFeatures();
 
       this.gameBoard.score++;
-
     }
   }
 
