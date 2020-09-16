@@ -1,4 +1,4 @@
-# EasyDoesIt
+# EasyDoesIt - Angular 10, HTML & CSS only
 
 ## Running:
 
