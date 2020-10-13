@@ -1,0 +1,13 @@
+<span [ngStyle]="{'font-size': txtSize}">{{mysteryWord}}</span>
+
+<div *ngIf="grid">
+  <div *ngFor="let row of grid; let i = index" class="row">
+    <div *ngFor="let cell of row" class="cell {{cell.type}}" 
+         [ngClass]="{'selected': cell.selected}" >
+      <div>
+        {{cell.val}}
+        
+      </div>
+    </div>
+  </div>
+</div>
