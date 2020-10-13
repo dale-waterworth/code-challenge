@@ -32,7 +32,7 @@ Open ``localhost:4200``
 
 ---
 
-
+![Image of Yaktocat](https://github.com/dale-waterworth/code-challenge/blob/master/EasyDoesIt/Screenshot 2020-10-13 at 18.27.06.png)
 
 
 
