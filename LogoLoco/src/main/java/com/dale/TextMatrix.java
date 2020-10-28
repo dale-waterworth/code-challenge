@@ -30,4 +30,14 @@ public class TextMatrix {
     public int getY(){
         return (int) stats.getCount() -1;
     }
+
+    public String getChar(int i, int j) {
+        String value;
+        try {
+            value = textMatrix[i][j];
+        } catch (Exception e) {
+            value = " ";
+        }
+        return value;
+    }
 }
